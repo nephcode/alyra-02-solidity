@@ -10,5 +10,7 @@ contract People {
 
     Person public moi;
 
-
+    function modifyPerson (string memory _name, uint _age ) public {
+        moi = Person(_name, _age);
+    }
 }
