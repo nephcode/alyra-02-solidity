@@ -18,14 +18,20 @@
 						"type": "uint256"
 					}
 				],
-				"name": "modifyPerson",
+				"name": "add",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "moi",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "persons",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -39,6 +45,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -70,11 +83,11 @@
 	},
 	"sources": {
 		"contracts/People.sol": {
-			"keccak256": "0x75e0c98d910f87bb9bba178d1bbb6a48094a1f3defc887aa2ef6ab905f5f32ba",
+			"keccak256": "0xa42694cb218e811b3c75a2430a2a4c8b0be95b0725ce59108ba29b3e70f323ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bcf5cc2d2a042150c961fad3f6aae8e35abcc0b74a6124812d64b2c59147a7f5",
-				"dweb:/ipfs/QmRZu3j7c6UDnunxiQM818EVnJc3LBmHabSSvm1eiNz2nh"
+				"bzz-raw://3f0f2bbbba956e9a0ff3f57b499fcc731fd9d8d8f62e6f821246498ef6c09b02",
+				"dweb:/ipfs/QmPwqyuMAx1k2QiFbKBfnqfTDzN2ewDEXhNEXYBUxt2aQA"
 			]
 		}
 	},
