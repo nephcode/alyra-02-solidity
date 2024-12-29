@@ -5,18 +5,19 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Voting is Ownable {
     
-    // ---- Structures de données ----
-    struct Voter {
+    constructor() Ownable(msg.sender) {}
+
+        // ---- Structures de données ----
+        struct Voter {
         bool isRegistered;
         bool hasVoted;
         uint votedProposalId;
-    }
+        }
 
-    struct Proposal {
+        struct Proposal {
         string description;
         uint voteCount;
-    }
-constructor() Ownable(msg.sender) {}
+        }
 
     // ---- Enumération pour le statut du workflow ----
     enum WorkflowStatus {
@@ -26,6 +27,7 @@ constructor() Ownable(msg.sender) {}
         VotingSessionStarted,
         VotingSessionEnded,
         VotesTallied
+
     }
 
     // ---- Variables d'état ----

@@ -414,11 +414,11 @@
 			]
 		},
 		"contracts/vote.sol": {
-			"keccak256": "0x406b2c313409d9c95d2604ce16a3de08251331edb50b5e76ab365c19c0639d01",
+			"keccak256": "0xa457e3ef9f7f59d0ac5dd3cb50a3c4cf9b6f15fcb7f25ec04dfdee5d315562cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e42dd59e3aaa37be4c08754a3ab8ef55b7f961f0007ec1f4e26033cf678e5797",
-				"dweb:/ipfs/QmUnDMXNxZQpTv6XyVN5Y3SNPiYUnafTdWdvUX9HUycJaG"
+				"bzz-raw://dbf769db04167c7fbca7328f9a41255aff155f9b97a9e2574fa0430ed5ac97c6",
+				"dweb:/ipfs/QmSL33uKb2y1PqhHfxFWEGn8iyuF2sW8yLnaP7UxSHmXuF"
 			]
 		}
 	},
