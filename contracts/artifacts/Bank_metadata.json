@@ -46,6 +46,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "value_A",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value_B",
+						"type": "uint256"
+					}
+				],
+				"name": "addition",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -130,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/event.sol": {
-			"keccak256": "0x23d22cd53bedd393c18364fe7db3a59054659c6de8e352cc33e7f0d9b03e2580",
+			"keccak256": "0xe6939dd50e7beefa23707feeb3450bf54ad22f35a8ae6d8ca81e199d4fe22b07",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c42d166f7988430af7ec76d882cd5e1894d34044d10ca73269592684639293ae",
-				"dweb:/ipfs/QmSBsQF4WboWm2mMN4JVNVJnfXpyU5R3huPswNS6Pxoph1"
+				"bzz-raw://4dc2369586ecd6de5ab401ad9ac2c5970068e50261179973b0a4498ed94b0846",
+				"dweb:/ipfs/QmZHVwSQPb6QvHxdZvCUMoM8eyfuAQtJjuDpXTrGhtFeM6"
 			]
 		}
 	},
