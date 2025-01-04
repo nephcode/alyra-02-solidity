@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/whitelist.sol": {
-			"keccak256": "0x66409a15b2661ca2209c963ae7ee0cd5e3e17e8042b801a9019616e88786cf7f",
+			"keccak256": "0x6c654b129a9c696fa6d450442accb493a6a31a030cb8aa35faebdd07f983454c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4c30cae9b38572edeb38befaedb807e1876e5c19442b4161eeaab79566437fa1",
-				"dweb:/ipfs/QmdHDbkY5TnL4oc9smrbB9E3rokSc11VYypShwJfYbDShh"
+				"bzz-raw://423e9a7f04b2418ab8a6b545519487ed7db05c0f29d0ce03918d47c5806193e2",
+				"dweb:/ipfs/QmRRW8fFUjzDqFAnmd7vmvVdpiboVELqTYrdot2RUADkVG"
 			]
 		}
 	},

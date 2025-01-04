@@ -6,6 +6,63 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdraw",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "deposit",
 				"outputs": [],
@@ -29,6 +86,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -60,11 +130,11 @@
 	},
 	"sources": {
 		"contracts/event.sol": {
-			"keccak256": "0x60297005a0474ff262c32481ec1b6a150537af211e84d50c52c2309577c85cdb",
+			"keccak256": "0x23d22cd53bedd393c18364fe7db3a59054659c6de8e352cc33e7f0d9b03e2580",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5e1c1b3ff67c090fcf1e663f027f0aa75b9d7bc9d29096a05f47de152e9f38e9",
-				"dweb:/ipfs/QmPShY96z3HcAYC6qj7i2D2FLrNx7uZHzMGj81Gg1w8ici"
+				"bzz-raw://c42d166f7988430af7ec76d882cd5e1894d34044d10ca73269592684639293ae",
+				"dweb:/ipfs/QmSBsQF4WboWm2mMN4JVNVJnfXpyU5R3huPswNS6Pxoph1"
 			]
 		}
 	},
