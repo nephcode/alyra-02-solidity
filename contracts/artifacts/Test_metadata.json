@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_note",
+						"type": "uint256"
+					}
+				],
+				"name": "addApprenant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct.sol": "Test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct.sol": {
+			"keccak256": "0x4da95297336be9a5ab5a38a44429544e8b4df9845f2d8b839dc514f44c31b39e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3751bf20c51ee25624d84fa0e00a48d487e6101468d196b3c2f4bdef700d923a",
+				"dweb:/ipfs/QmSJWVJGaXcDHNPWTD8NUcmD1GvxmHxSv5r24QoRq8rHXm"
+			]
+		}
+	},
+	"version": 1
+}
