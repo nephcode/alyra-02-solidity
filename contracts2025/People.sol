@@ -5,7 +5,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-contract people {
+contract People {
     struct person 
     {
         string name;
