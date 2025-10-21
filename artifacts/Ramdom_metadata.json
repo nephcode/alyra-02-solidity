@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts2025/Ramdom.sol": "Ramdom"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts2025/Ramdom.sol": {
+			"keccak256": "0x708f0cdac24f5df5f5ca2d02032f65e4312b2f4638dfd10cdc27c4c069ac23e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://672e84ab5b3d7d2019e32ea0b7d7f7e6292ece7e4decc8f49dfddc36411bf38f",
+				"dweb:/ipfs/QmQQoa6pzvE9kZrfUxrHkjcnXh1AB6w1RmhcraTBv7JY5H"
+			]
+		}
+	},
+	"version": 1
+}
