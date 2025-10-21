@@ -1,4 +1,4 @@
-![header](https://github.com/nephcode/alyra-02-solidity/blob/main/.github/images/githubReadmeHeader.jpg)
+![Header](https://github.com/nephcode/alyra-02-solidity/blob/main/.github/images/githubReadmeHeader.jpg)
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
