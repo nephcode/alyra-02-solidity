@@ -15,7 +15,7 @@ contract Whitelist {
 
     constructor()
     {
-        whiteList[msg.sender]==true;
+        whiteList[msg.sender]=true;
     }
 
     modifier modCheck()

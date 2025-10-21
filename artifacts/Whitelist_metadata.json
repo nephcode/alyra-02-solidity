@@ -92,11 +92,11 @@
 	},
 	"sources": {
 		"contracts2025/WhitelistMod.sol": {
-			"keccak256": "0xea365a631d57aa76c1766ee0c84abd6b55174f20683439c31ac872b6a18dff50",
+			"keccak256": "0x0018624434b8a5379e357cac1012b2ec86348aeeae249d242f7756029a3076e4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3184fc9dfc1d761a37899797240562605b5da163b10306a41d32b9073a3b340f",
-				"dweb:/ipfs/QmRMbwiVFzhoC6ULQghjxvzZ9ZsnHYTcSd6qjeHpeHvSSn"
+				"bzz-raw://2348a989d2e297402229698166cb15ebc14eda60b28fcdb1ea8c9affe7fb6c6c",
+				"dweb:/ipfs/QmTRc4YgeLKVGkNxTrWQTNNbY3t422pdUNnna4o64oK6Fs"
 			]
 		}
 	},
