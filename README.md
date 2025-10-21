@@ -40,4 +40,4 @@ clone
 
 ```
 
-![Footer](https://github.com/nephcode/alyra-02-solidity/blob/main/.github/images/githubReadmeFooter.png)
+![Footer](https://github.com/nephcode/alyra-02-**solidity**/blob/main/.github/images/githubReadmeFooter.png)
