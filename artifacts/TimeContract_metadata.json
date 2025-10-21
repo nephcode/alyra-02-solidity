@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts2025/TimeContract.sol": "TimeContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts2025/TimeContract.sol": {
+			"keccak256": "0x3e530fb10ac0d44fc297b812071c89e1a8f6e9625d3e476c559c8bd4496b3e46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0c03b982fe3bdaa171049540418cc86a781c92c17711e8dc29c9782d3970cd4",
+				"dweb:/ipfs/QmVBwNwYbJvz8quaK4UKvRKWCFmC819mWcMWRQy6dzmnwK"
+			]
+		}
+	},
+	"version": 1
+}

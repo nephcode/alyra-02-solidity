@@ -9,7 +9,8 @@ contract TimeContract
 {
     function getTime()
     public view 
+    returns (uint)
     {
-        return (block.timestamp);
+        return block.timestamp;
     }
 }
