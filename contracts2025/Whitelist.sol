@@ -6,17 +6,29 @@
 pragma solidity 0.8.30;
 
 contract Whitelist {
-    // event generated logs 
-    event Authorired(address _address);
-
-    // classic whitelist
+     // classic whitelist
     mapping (address => bool) whiteList;
+    
+    // event generated logs 
+    event eventAuthorized(address _address);
+    event eventReceived(address _target, uint _value);
 
     function authorized(address _address)
     public 
     {
-        whitelist(_address);    
-        emit Authorired(_address);
+        whiteList[_address] = true;   
+        emit eventAuthorized(_address);
     }
 
+    receive()
+    external payable
+    {
+        emit eventReceived(msg.sender, msg.value);
+    }
+
+    fallback()
+    external payable
+    {
+        emit eventReceived(msg.sender, msg.value);
+    }
 }   
