@@ -6,11 +6,17 @@
 pragma solidity 0.8.30;
 
 contract Whitelist {
-    // event 
+    // event generated logs 
     event Authorired(address _address);
 
     // classic whitelist
     mapping (address => bool) whiteList;
 
+    function authorized(address _address)
+    public 
+    {
+        whitelist(_address);    
+        emit Authorired(_address);
+    }
 
-}
+}   
