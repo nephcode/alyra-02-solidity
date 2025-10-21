@@ -16,8 +16,23 @@ contract Whitelist {
     function authorized(address _address)
     public 
     {
+        require (check(), unicode"Yoù aré not åuthorized");
         whiteList[_address] = true;   
         emit eventAuthorized(_address);
+    }
+
+    function check()
+    private view
+    returns(bool)
+    {
+        if (whiteList[msg.sender]==true)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     receive()
