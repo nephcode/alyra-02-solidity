@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -72,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts2025/Whitelist.sol": "Whitelist"
+			"contracts2025/WhitelistMod.sol": "Whitelist"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -86,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts2025/Whitelist.sol": {
-			"keccak256": "0x3dc55e7a781eef792b7335d5d51cf1bf224976bb2308ea3694a3ef24e5b6018b",
+		"contracts2025/WhitelistMod.sol": {
+			"keccak256": "0xea365a631d57aa76c1766ee0c84abd6b55174f20683439c31ac872b6a18dff50",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c23f57a0f24d07d3dd6c961f1e9184d20a16f7028fff69e4526e51a7f7d13d2d",
-				"dweb:/ipfs/QmdBhJzLupPtoYF3JSxoAKfYS3kLdy8oUDiGNypZcjsqQ2"
+				"bzz-raw://3184fc9dfc1d761a37899797240562605b5da163b10306a41d32b9073a3b340f",
+				"dweb:/ipfs/QmRMbwiVFzhoC6ULQghjxvzZ9ZsnHYTcSd6qjeHpeHvSSn"
 			]
 		}
 	},

@@ -13,26 +13,23 @@ contract Whitelist {
     event eventAuthorized(address _address);
     event eventReceived(address _target, uint _value);
 
+    constructor()
+    {
+        whiteList[msg.sender]==true;
+    }
+
     modifier modCheck()
     {
-        returns(bool)
-        {
-            if (whiteList[msg.sender]==true)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
+        require(
+            whiteList[msg.sender]==true,
+            unicode"Yoù aré not åuthorized"
+        );
         _;
     }
 
     function authorized(address _address)
-    public 
+    public modCheck
     {
-        require (modCheck(), unicode"Yoù aré not åuthorized");
         whiteList[_address] = true;   
         emit eventAuthorized(_address);
     }
