@@ -1,45 +1,43 @@
-![Cover](https://kpkfzczpavanzocxzyta.supabase.co/storage/v1/object/public/alyra/readme-alyra-02-header.png)
+![header](https://github.com/nephcode/alyra-02-solidity/blob/main/.github/images/githubReadmeHeader.jpg)
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
 # ALYRA : SOLIDITY
 
-Solidity Course
+Solidity ALYRA Course
 
 ## PROJECT DELIVERIES
 
 | WHAT FOR               | WHEN         |
 | :--------------------- | ------------ |
-| Deadline MVP           | `10-11-2024` |
-| Deadline CERTIFICATION | `NEAR NOVEMBER` |
-
+| Deadline MVP           | `10-11-2025` |
+| Deadline CERTIFICATION | `DECEMBER`   |
 
 ## INFORMATIONS
 
-| WHERE     | URL                                    |
-| :-------- | -------------------------------------- |
-| Discord   | [#](#)                                 |
-| Instagram | [https://www.instagram.com/](#)        |
-| www       | [#underconstution](#underconstruction) |
+| WHERE     | URL                                                |
+| :-------- | -------------------------------------------------- |
+| Discord   | [#](#)                                             |
+| Instagram | [youcodeuse](https://www.instagram.com/youcodeuse) |
+| www       | [youcodeuse](https://youcodeuse.com)               |
 
-| WHO IS   | FOR             |      COMPANY      | CONTACT | DISCORD |
-| :------- | --------------- | :---------------: | ------- | :-----: |
-| Nephelim | Head of concept | Underconstruction | #       |   YES   |
+| WHO IS   | FOR             | COMPANY  | CONTACT | DISCORD |
+| :------- | --------------- | :------: | ------- | :-----: |
+| Nephelim | Head of concept | Rethagon |         |   YES   |
 
 ## TECHNO
 
-| TECHNO   | SPEC   |
-| :------- | ------ |
-| CONTRACT| `SOLIDITY`|
+| TECHNO   | SPEC       |
+| :------- | ---------- |
+| CONTRACT | `SOLIDITY` |
 
 ## RUNNING THE APPS
 
-Create branch
+Best Dev use Neovim
+
+```bash
+clone
 
 ```
-git branch dev
-git branch release
 
-```
-
-![Cover](https://kpkfzczpavanzocxzyta.supabase.co/storage/v1/object/public/alyra/readme-alyra-02-footer.png)
+![Footer](https://github.com/nephcode/alyra-02-solidity/blob/main/.github/images/githubReadmeFooter.png)
