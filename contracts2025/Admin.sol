@@ -3,22 +3,31 @@
 /*  <!-- ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ --> +-+-+-+-+-+-+-+-+ ∵ ƸӜƷ ∴∵ ƸӜƷ 42 ƸӜƷ ∴∵  1--> */
 
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.3;
+pragma solidity 0.8.30;
 
 import  "@openzeppelin/contracts/access/Ownable.sol"
 
-contract Admin is Ownable 
+contract Admin is Ownable
 {
-    
+    mapping (address => bool)   whitelist;
+    mapping (address => bool)   blacklist;
 
-    mapping (address => bool) isWhiteListed;
-    mapping (address => bool) isBlackListed;
+    event   eventAuthorized   (address _address);
+    event   eventBanned       (address _address);
 
     constructor(onlyOwner
     )
 
+    modifier    mod
 
+    function    isBlackListed()
+    public 
+    returns()
+    {}
 
-
+    function    isAuthorized()
+    public 
+    returns ()
+    {}
 
 }
