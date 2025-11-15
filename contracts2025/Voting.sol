@@ -2,10 +2,6 @@
 /*  <!- ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∵ -> |N|E|P|H|C|O|D|E| <!-- ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ  0--> */
 /*  <!-- ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ --> +-+-+-+-+-+-+-+-+ ∵ ƸӜƷ ∴∵ ƸӜƷ 42 ƸӜƷ ∴∵  1--> */
 
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.3;
-
-
 // WORKINPROGRESS
 /*
 ✔️ Le vote n'est pas secret pour les utilisateurs ajoutés à la Whitelist
@@ -38,14 +34,15 @@ Voici le déroulement de l'ensemble du processus de vote :
 
 👉 Les recommandations et exigences :
 
-    Votre smart contract doit s’appeler “Voting”. 
+        Votre smart contract doit s’appeler “Voting”. 
 
-    Votre smart contract doit utiliser la dernière version du compilateur.
+        Votre smart contract doit utiliser la dernière version du compilateur.
 
-    L’administrateur est celui qui va déployer le smart contract. 
+        L’administrateur est celui qui va déployer le smart contract. 
 
     Votre smart contract doit définir les structures de données suivantes : 
-    struct Voter { bool isRegistered; bool hasVoted; uint votedProposalId; } struct Proposal { string description; uint voteCount; }
+    struct Voter { bool isRegistered; bool hasVoted; uint votedProposalId; } 
+    struct Proposal { string description; uint voteCount; }
 
     Votre smart contract doit définir une énumération qui gère les différents états d’un vote
     enum WorkflowStatus { RegisteringVoters, ProposalsRegistrationStarted, ProposalsRegistrationEnded, VotingSessionStarted, VotingSessionEnded, VotesTallied }
@@ -62,9 +59,39 @@ Voici le déroulement de l'ensemble du processus de vote :
 
 */
 
-contrat Voting 
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.3;
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contrat Voting is Ownable 
 {
-    contructor  Admin()
+    /// @notice 
+    error 
+
+    event VoterRegistered(address voterAddress);
+    event WorkflowStatusChange(WorkflowStatus previousStatus, WorkflowStatus newStatus);
+    event ProposalRegistered(uint proposalId);
+    event Voted (address voter, uint proposalId);
+    
+    struct Voter 
+    { 
+        bool isRegistered; 
+        bool hasVoted; 
+        uint votedProposalId; 
+    } 
+    
+    struct Proposal 
+    { 
+        string description; 
+        uint voteCount; 
+    }
+
+    contructor() Ownable(msg.sender)
+    {}
+
+    // VOTE ====================================================================
+    
 
 }
 

@@ -18,20 +18,14 @@
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "modifyPerson",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "people",
+				"inputs": [],
+				"name": "moi",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -45,13 +39,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "remove",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -68,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts2025/PeopleArray.sol": "People"
+			"contracts2025/people.sol": "people"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -82,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts2025/PeopleArray.sol": {
-			"keccak256": "0xa02c180df5eb57b0f1a83b21bbcc37acda424fb3e5a6ba29bcab30cc9c6ded85",
+		"contracts2025/people.sol": {
+			"keccak256": "0x77229735c7970f7ec038ab71932a59238adf6e62cc7efb8f22a8ff77d3a966a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a70424c08ac13d53ddbb892f0c44b83d0239aeed15ce22d708571dc6d8a5387c",
-				"dweb:/ipfs/QmSiLNTCUijKqTHJCZLyZauHeV7TEkhiH7ZLAgQeLqkudx"
+				"bzz-raw://f48f611dfe1c24433e82e2417b9c686a0fadfa78fa579e6afdc4f80223e1f1bc",
+				"dweb:/ipfs/QmQqNQtRiJohSEmqn21hpSXkcFcYrL4bepPXyfeey2GKhQ"
 			]
 		}
 	},
