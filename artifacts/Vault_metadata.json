@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.3+commit.8d00100c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "redeem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"redeem()": {
+					"details": "Redeem your ETH."
+				},
+				"store()": {
+					"details": "Store ETH in the contract."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts2025/secu.sol": "Vault"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts2025/secu.sol": {
+			"keccak256": "0xe11441f36616650a71ad5da84e01f02d82240707deb82ef7758230e768c97b20",
+			"urls": [
+				"bzz-raw://422e2f6fe37c959a1b75573808dfd1d0e61101d586981a8c7cbf809f12b7d20d",
+				"dweb:/ipfs/QmQXLDwcSimdM24QPPQkqRkgJbqP3guYtmatPxS3GrzmuN"
+			]
+		}
+	},
+	"version": 1
+}

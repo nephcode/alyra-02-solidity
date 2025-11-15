@@ -9,25 +9,56 @@ import  "@openzeppelin/contracts/access/Ownable.sol"
 
 contract Admin is Ownable
 {
+    // === Mapping ============================== //
     mapping (address => bool)   whitelist;
     mapping (address => bool)   blacklist;
 
-    event   eventAuthorized   (address _address);
-    event   eventBanned       (address _address);
+    // === Event ================================ //
+    event   eventAllowed    (address _address);
+    event   eventDenied     (address _address);
+    
+    // === Modifier ============================= //
+    modifier    modInList()
+    {
+        require(
+            !blacklist[_address],
+            unicode"Yoù aré not åuthorized"
+        );
+        require(
+            !whitelist[_address],
+            unicode"You are allowed"
+        )
+        _;
+    }
 
-    constructor(onlyOwner
-    )
+    // === allow ================================ //
+    function    allow(adress _address)
+    public onlyOwner
+    {
+        emit eventAllowed(_address);
+    }
 
-    modifier    mod
+    // === deny ================================= //
+    function    deny(address _address)
+    public onlyOwner
+    {
+        emit eventDenied(_address);
+    }
 
-    function    isBlackListed()
-    public 
-    returns()
-    {}
+    // === isBlackListed ======================== //
+    function    isBlackListed(address _address)
+    public view
+    returns(bool)
+    {
+        return whitelist[_address];
+    }
 
-    function    isAuthorized()
-    public 
-    returns ()
-    {}
+    // === isAuthorized ========================= //
+    function    isAuthorized(address _address)
+    public view 
+    returns (bool)
+    {
+        return whitelist[_address];
+    }
 
 }
